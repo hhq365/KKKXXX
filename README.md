@@ -1,5 +1,5 @@
 ## 接口一般约定
-* **所有时间戳都精确到毫秒，用13位的bigint格式  **
+* **所有时间戳都精确到毫秒，用13位的bigint格式**
 * **http请求的时候公共参数(每次请求http接口的时都需带上的参数)：lang,packtype,version,usertoken** 
 * **每次http请求返回的结果内容都是json格式的字符串**
 * **如果以post方式请求数据，post的数据尽量采用json格式，并把json字符串加密之后放在post form的param字段**
